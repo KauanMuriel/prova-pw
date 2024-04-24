@@ -1,0 +1,14 @@
+#state-list {
+    text-align: center;
+    list-style: none;
+}
+
+#state-list li a {
+    color: #333;
+    text-decoration: none;
+}
+
+#state-list li a:hover {
+    opacity: 0.8;
+    transition: opacity ease-in-out 300ms;
+}
