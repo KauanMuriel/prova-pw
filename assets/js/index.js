@@ -2,7 +2,7 @@ window.onload = async () => {
     const listElement = document.querySelector('#state-list');
 
     try {
-        const response = await fetch('https://servicodados.ibge.gov.br/api/v1/localidades/estados', { mode: "no-cors"});
+        const response = await fetch('https://servicodados.ibge.gov.br/api/v1/localidades/estados');
         const states = await response.json();
         states.forEach(insertStateInList);
     }catch(error) {
