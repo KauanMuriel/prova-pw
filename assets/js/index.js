@@ -6,7 +6,7 @@ window.onload = async () => {
         const states = await response.json();
         states.forEach(insertStateInList);
     }catch(error) {
-        console.error(error)
+        console.error(error);
     }
 
     function insertStateInList(state) {
