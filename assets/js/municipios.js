@@ -4,7 +4,7 @@ window.onload = async () => {
 
     for (const [key, value] of queryString) {
         if (key === 'id') {
-            const response = await fetch(`https://servicodados.ibge.gov.br/api/v1/localidades/estados/${value}/municipios`, { mode: "no-cors"});
+            const response = await fetch(`https://servicodados.ibge.gov.br/api/v1/localidades/estados/${value}/municipios`);
             const cities = await response.json();
             console.log(cities)
             cities.forEach(insertCityInList);
