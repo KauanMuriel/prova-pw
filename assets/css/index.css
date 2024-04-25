@@ -3,6 +3,10 @@
     list-style: none;
 }
 
+#state-list li {
+    margin-top: 8px;
+}
+
 #state-list li a {
     color: #333;
     text-decoration: none;

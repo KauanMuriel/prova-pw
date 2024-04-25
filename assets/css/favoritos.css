@@ -1,0 +1,13 @@
+#favorites-list {
+    text-align: center;
+    list-style: none;
+}
+
+#favorites-list li {
+    margin-top: 10px;
+}
+
+#favorites-list li span {
+    color: #333;
+    text-decoration: none;
+}
