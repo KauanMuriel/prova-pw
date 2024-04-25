@@ -1,0 +1,33 @@
+#header-title {
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+}
+
+#cities-list {
+    text-align: center;
+    list-style: none;
+}
+
+#cities-list li {
+    margin-top: 10px;
+}
+
+#cities-list li span {
+    color: #333;
+    text-decoration: none;
+}
+
+.button-favorite-city {
+    background-color: #ff4136;
+    border: none;
+    color: #FFF;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.button-favorite-city:hover {
+    opacity: 0.8;
+    transition: opacity ease-in-out 300ms;
+}
